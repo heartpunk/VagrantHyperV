@@ -1,5 +1,11 @@
 require "VagrantHyperV/version"
 
 module VagrantHyperV
-  # Your code goes here...
+  class VagrantHyperV < Vagrant.plugin("2")
+    name "VagrantHyperV"
+    provider "vagrant_hyperv" do
+      require_relative "provider"
+      provider
+    end
+  end
 end

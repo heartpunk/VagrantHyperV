@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = VagrantHyperV::VERSION
   gem.authors       = ["Ezekiel Smithburg"]
   gem.email         = ["tehgeekmeister@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{This is a HyperV provider for vagrant.}
+  gem.summary       = %q{This is a HyperV provider for vagrant.}
   gem.homepage      = ""
   gem.license       = "MIT"
 
