@@ -5,7 +5,7 @@ module VagrantHyperV
     name "VagrantHyperV"
     provider "vagrant_hyperv" do
       require_relative "provider"
-      provider
+      Provider
     end
   end
 end
