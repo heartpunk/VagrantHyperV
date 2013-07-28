@@ -1,4 +1,5 @@
-require "VagrantHyperV/version"
+require 'VagrantHyperV/version'
+require 'vagrant'
 
 module VagrantHyperV
   class VagrantHyperV < Vagrant.plugin("2")
