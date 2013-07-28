@@ -1,4 +1,5 @@
 class Provider < Vagrant.plugin(2, :provider)
+  name "vagrant_hyperv"
   # Initialize the provider to represent the given machine.
   #
   # @param [Vagrant::Machine] machine The machine that this provider
