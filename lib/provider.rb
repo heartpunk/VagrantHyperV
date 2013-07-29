@@ -1,5 +1,4 @@
 class Provider < Vagrant.plugin(2, :provider)
-  name "vagrant_hyperv"
   # Initialize the provider to represent the given machine.
   #
   # @param [Vagrant::Machine] machine The machine that this provider
@@ -13,7 +12,11 @@ class Provider < Vagrant.plugin(2, :provider)
   # @return [Object] A callable action sequence object, whether it
   #   is a proc, object, etc.
   def action(name)
-    nil
+    puts "#{name} was called"
+    case name
+    when :up then ->(a) {self.action :start}
+    when :start then ->(a) {}
+    end
   end
 
   # This method is called if the underying machine ID changes. Providers
