@@ -12,3 +12,15 @@ bundle
 rake build
 vagrant plugin install --plugin-prerelease pkg/VagrantHyperV-0.0.5.pre.gem
 ```
+
+Demo Instructions
+=================
+
+Like I already said, this thing doesn't do ANYTHING useful yet. But, if you want to see what's working so far, I've included a demo box that you can test some of it out with. Here's how.
+
+```
+vagrant box add demo_box.tar
+vagrant up --provider=vagrant_hyperv
+```
+
+Because up doesn't actually bring a machine up, none of the other actions work yet. I'll be stubbing them out, and then implementing them, soon enough. Hopefully.
