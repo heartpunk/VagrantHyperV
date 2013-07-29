@@ -5,6 +5,10 @@ This is a Vagrant plugin that will hopefully become a HyperV provider. It doesn'
 Installation Instructions
 =========================
 
+First, clone this repo and cd into it.
+
 ```
-vagrant plugin install VagrantHyperV
+bundle
+rake build
+vagrant plugin install --plugin-prerelease pkg/VagrantHyperV-0.0.5.pre.gem
 ```
