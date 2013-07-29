@@ -21,6 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'rspec-mocks'
-
-  gem.add_dependency 'vagrant', '>= 1.2'
+  gem.add_development_dependency 'vagrant', '>= 1.1'
 end
