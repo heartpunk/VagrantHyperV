@@ -1,29 +1,10 @@
 # VagrantHyperV
 
-TODO: Write a gem description
+This is a Vagrant plugin that will hopefully become a HyperV provider. It doesn't do anything useful yet, but it can be installed in Vagrant already, if you feel like that for some reason.
 
-## Installation
+Installation Instructions
+=========================
 
-Add this line to your application's Gemfile:
-
-    gem 'VagrantHyperV'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install VagrantHyperV
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+```
+vagrant plugin install VagrantHyperV
+```
